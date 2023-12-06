@@ -6,6 +6,8 @@ The app is built using [Django](https://www.djangoproject.com/) web framework us
 
 ## Screenshots
 
+![dan-poynor-django-restaurant-app](https://github.com/danpoynor/django-restaurant-website-demo/assets/764270/e0494afd-fc3e-42bc-81f3-63f664d62532)
+
 ## Features
 
 The application includes the following features:
