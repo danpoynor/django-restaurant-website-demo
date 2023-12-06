@@ -4,9 +4,13 @@ This demo app provides a basic website for a fictitious restaurant allowing cust
 
 The app is built using [Django](https://www.djangoproject.com/) web framework using Python, SQLite, HTML, and CSS.
 
+---
+
 ## Screenshots
 
 ![dan-poynor-django-restaurant-app](https://github.com/danpoynor/django-restaurant-website-demo/assets/764270/e0494afd-fc3e-42bc-81f3-63f664d62532)
+
+---
 
 ## Features
 
@@ -18,6 +22,8 @@ The application includes the following features:
 - **Menu Page**: Displays the restaurant's menu.
 - **Menu Item Page**: Provides details about a specific menu item.
 
+---
+
 ## Views
 
 The application includes the following views:
@@ -28,9 +34,13 @@ The application includes the following views:
 - `menu`: Renders the menu page.
 - `display_menu_item`: Renders a specific menu item page.
 
+---
+
 ## Forms
 
 The application includes a basic `BookingForm` in forms.py that allows customers to make a booking. Fields are based on the `Booking` model created in models.py.
+
+---
 
 ## Installation and Setup
 
@@ -83,6 +93,8 @@ python manage.py runserver
 
 The application will be available at `http://localhost:8000`.
 
+---
+
 ## Admin Area
 
 The Django admin area is used to manage menu items for the restaurant. You can add, edit, and delete menu items through the admin interface.
@@ -105,9 +117,13 @@ python manage.py createsuperuser
 
 Once logged in, you can manage menu items by clicking on "Menus" under the "RESTAURANT" section.
 
+---
+
 ## Tests
 
 The application includes 21 tests for the models, views, and forms and cover a range of scenarios, including checking that the correct templates are used, the correct context data is passed to the templates, and the forms behave as expected.
+
+---
 
 ### Running Tests
 
